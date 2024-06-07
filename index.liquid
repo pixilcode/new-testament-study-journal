@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>A Student's Perspective of the New Testament</title>
+	<link rel="stylesheet" href="assets/styles/styles.css" />
+	<link rel="stylesheet" href="assets/styles/home.css" />
+	<link rel="shortcut icon" href="/assets/img/logo-sans-letters.svg" />
+        <title>{{ page.title }}</title>
+</head>
+<body>
+	{% include "header.liquid" %}
+	<div class="image-header">
+		<div class="img-wrapper">
+			<img src="/assets/img/christ_teaching_the_people.jpeg" alt="Christ teaching the people" class="landscape" />
+		</div>
+		<div class="img-wrapper">
+			<img src="/assets/img/portrait_jesus_christ_heinrich_hofmann.jpeg" alt="Portrait of Jesus" class="portrait" />
+		</div>
+		<div class="img-wrapper">
+			<img src="/assets/img/jesus_praying_in_gethsemane.jpeg" alt="Jesus in Gethsemane" class="portrait" />
+		</div>
+	</div>
+	<main>
+		{% for post in collections.posts.pages %}
+			<h4>{{post.title}}</h4>
+
+			<a href="{{post.permalink}}">{{post.title}}</a>
+		{% endfor %}
+	</main>
+</body>
+</html>
+
+

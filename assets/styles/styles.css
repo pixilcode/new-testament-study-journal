@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;700&display=swap');
+
+* {
+  color: #333300;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #faebd7;
+}
+
+main {
+  margin: 3em 4em 3em 2.5em;
+}
+
+header {
+  background-color: #f9cc90;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+p, ul, ol, a, table {
+  font-family: 'Josefin Sans', sans-serif;
+  line-height: 161.8%;
+  letter-spacing: 0.005em;
+}
+
+p, li {
+  padding: 0.5em 0;
+}
+
+a {
+  color: brown;
+}
+
+iframe {
+  width: 60vw;
+  height: 36vw;
+  margin: auto 20vw;
+}
+
+/* NAV BAR STYLES */
+header {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.618em;
+  padding: 0 1.618em;
+}
+
+header a {
+  height: 5.854em;
+  width: 5.854em;
+  padding: 0.5em;
+  text-align: center;
+  vertical-align: center;
+}
+
+header img {
+  width: 100%;
+}
+
+header nav {
+  height: 6.854em;
+  flex-grow: 1;
+}
+
+nav ul {
+  height: inherit;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  gap: 1.618em;
+}
+
+nav li {
+  list-style-type: none;
+  background-color: #d69540;
+  text-align: center;
+}
+
+nav li:hover {
+  background-color: #b27c35;
+}
+
+nav a {
+  font-size: 1.618em;
+  padding: 1em 0.618em;
+  
+}
+
+/* TABLE STYLES */
+table, th, td {
+  border: #f99990 2px solid;
+  border-radius: 0.5em;
+}
+
+table {
+  background-color: #f99990;
+  border-radius: 0.75em;
+}
+
+th {
+  background-color: #f9b9b3;
+  padding: 1em;
+}
+
+td {
+  background-color: #f9d9d6;
+  padding: 0.125em 1em;
+}
+
+/* HEADER STYLES */
+h1 {
+  font-size: 6.854rem;
+  line-height: 11.090rem;
+}
+
+h2 {
+  font-size: 4.236rem;
+  line-height: 6.854rem;
+}
+
+h3 {
+  font-size: 2.618rem;
+  line-height: 4.236rem;
+}
+
+h4 {
+  font-size: 1.618rem;
+  line-height: 2.618rem;
+}
+
+h5 {
+  font-size: 1rem;
+  line-height: 1.618rem;
+}
+
+h6 {
+  font-size: 0.618em;
+  line-height: 1rem;
+}

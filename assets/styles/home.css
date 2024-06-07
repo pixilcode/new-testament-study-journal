@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+}
+
+.image-header {
+  display: flex;
+  height:36vw;
+}
+
+.img-wrapper {
+  flex: 1;
+  overflow: hidden;
+}
+
+.img-wrapper img.portrait {
+  width: 100%;
+}
+
+.img-wrapper img.landscape {
+  height: 100%;
+}
